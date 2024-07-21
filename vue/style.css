@@ -1,0 +1,278 @@
+.formulaire {
+    background-color: #f5e6e8; /* Beige avec une teinte rose */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Taille réduite du formulaire */
+    margin: auto;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="password"],
+.formulaire input[type="radio"],
+.formulaire button {
+    display: block;
+    width: 90%; /* Réduction de la largeur des champs */
+    margin: 5px 0; /* Réduction de la marge */
+    padding: 5px; /* Réduction du padding */
+    font-size: 16px;
+}
+
+.formulaire legend {
+    font-size: 20px; /* Réduction de la taille de la police */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulaire label {
+    margin-left: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.retour {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.retour a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #bf8a6a; /* Beige plus foncé */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.retour a:hover {
+    background-color: #9c6340; /* Nuance plus claire au survol */
+}
+
+
+.formulaire button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #bf8a6a; /* Beige plus foncé */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulaire button[type="submit"]:hover {
+    background-color: #9c6340; /* Nuance plus claire au survol */
+}
+
+
+/* Style pour les tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #f5e6e8; /* Beige avec une teinte rosée */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #d5ab7e; /* Bordure beige plus foncé */
+}
+
+table th {
+    background-color: #e6c7a1; /* Beige plus clair pour l'en-tête */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #fdf6f7; /* Alternance de lignes pour une meilleure lisibilité */
+}
+
+table tr:hover {
+    background-color: #f1e4e5; /* Couleur de survol des lignes */
+}
+
+
+.menu_filtre {
+    background-color: #f5e6e8; /* Beige avec une teinte rose */
+    padding: 5px; /* Réduit le padding pour minimiser la taille */
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    max-width: 250px; /* Réduit encore la largeur maximale */
+    margin: 10px auto; /* Réduit la marge autour de la section */
+}
+
+.menu_filtre label {
+    display: block;
+    margin: 2px 0; /* Réduit la marge autour des labels */
+    font-size: 12px; /* Réduit la taille de la police */
+}
+
+.menu_filtre input[type="text"] {
+    display: block;
+    width: calc(100% - 12px); /* Ajuste la largeur pour tenir compte du padding */
+    margin: 2px 0; /* Réduit la marge autour des champs de texte */
+    padding: 4px; /* Réduit le padding */
+    font-size: 12px; /* Réduit la taille de la police */
+}
+
+.menu_filtre input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 4px; /* Réduit le padding du bouton */
+    font-size: 12px; /* Réduit la taille de la police du bouton */
+    color: #fff;
+    background-color: #bf8a6a; /* Beige plus foncé */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu_filtre input[type="submit"]:hover {
+    background-color: #9c6340; /* Nuance plus claire au survol */
+}
+
+
+.menu_admin {
+    background-color: #f5e6e8; /* Beige avec une teinte rose */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Largeur maximale du menu */
+    margin: auto; /* Centrer le menu horizontalement */
+    display: grid; /* Utilisation de la grille CSS */
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+    gap: 10px; /* Espacement entre les éléments */
+    text-align: center; /* Centrer le texte à l'intérieur du menu */
+}
+
+.menu_admin a {
+    display: block;
+    padding: 10px;
+    width: 100%; /* Prendre toute la largeur de la cellule */
+    font-size: 16px;
+    color: #fff;
+    background-color: #bf8a6a; /* Beige plus foncé pour le bouton */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu_admin a:hover {
+    background-color: #9c6340; /* Nuance plus claire au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+}
+
+.menu_admin a:active {
+    background-color: #7a4c30; /* Couleur encore plus foncée lors du clic */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Couleur de fond générale */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bf8a6a; /* Beige avec une teinte rose */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre subtile pour l'en-tête */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #ffd700; /* Couleur dorée au survol */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Georgia', serif;
+}
+
+.contenu {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.pied_de_page {
+    background-color: #bf8a6a; /* Même couleur que l'en-tête */
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.titre {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #bf8a6a; /* Beige rosé */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    background-color: #d4edda; /* Vert clair */
+    color: #155724; /* Vert foncé */
+    border: 1px solid #c3e6cb; /* Vert clair bordure */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}

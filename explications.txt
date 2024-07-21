@@ -1,0 +1,11 @@
+La fonction $controleur->ajouterClient():
+    Fonction du controleur permettant l'ajout d'un utilisateur. elle utilise la foction ajouterClient() de la classe modele "User"
+
+La fonction $controleur->modifierClient():
+    fonction du controleur permettant de modifier un client . elle utilise des setters de la classe Client
+
+La foction $controleur->afficherTousLesClients() :
+    affiche tous les clients de la base de données
+
+La fonction $controleur->filtrer():
+    permet de filtrer par nom, adresse, email,sexe ou statut. elle utilise la fonction filtrerClients($crietre) de User
